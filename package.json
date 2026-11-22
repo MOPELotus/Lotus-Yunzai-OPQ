@@ -1,0 +1,24 @@
+{
+  "name": "@lotus-yunzai/opq",
+  "version": "0.1.0",
+  "description": "Lotus-Yunzai · OPQBot 协议适配器",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.4",
+  "engines": {
+    "bun": ">=1.4.4"
+  },
+  "exports": "./index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOPELotus/Lotus-Yunzai-OPQ.git"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.4",
+    "typescript": "6.0.3"
+  }
+}
